@@ -1,0 +1,70 @@
+* {
+    font-size: 20px;
+}
+body {
+    background-color: cornsilk;
+}
+#header, #footer {
+    position: fixed;
+    width: 100%;
+    padding: 0 2%;
+    display: block;
+}
+#header {
+    background-color: aliceblue;
+    height: 15%;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+#messages {
+    border: solid 1px grey;
+    box-shadow: grey;
+    background-color: white;
+    position: absolute;
+    top: 17%;
+    height:70%;
+    width: 100%;
+    overflow: auto;
+}
+.message {
+    padding: 0;
+    margin-left: 1%;
+    line-height: 0.25em;
+}
+.message span {
+    font-weight: 800;
+    padding-right: 0.25em;
+    color: rgb(0,0,255);
+}
+.message p {
+    display: inline-block;
+}
+
+#footer {
+    width: 100%;
+    height: 11%;
+    bottom: 0;
+    margin: 0 auto;
+    text-align: center;
+}
+#footer *{
+    position: fixed;
+}
+#footer textarea {
+    left: 11%;
+    right: 2.5%;
+    width: 78%;
+    height: 11%;
+}
+#footer .button {
+    width: 10%;
+    padding: 1.8%;
+}
+#send {
+    right: 0.5%;
+}
+#stop, #new {
+    left: 0.5%;
+}
+
